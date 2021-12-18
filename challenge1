@@ -1,0 +1,18 @@
+sudo apt update
+sudo apt install nginx -y
+
+mkdir carpeta1; mkdir carpeta2; mkdir carpeta3
+
+cd carpeta1; touch archivo1.txt
+echo "soy el n°1" > archivo1.txt
+
+cd ..
+cd carpeta2; touch archivo2.txt
+echo "soy el n°2" > archivo2.txt
+
+cd ..
+cd carpeta3; touch archivo3.txt
+echo "soy el n°3" > archivo3.txt
+
+cd ..
+cd carpeta2; cat archivo2.txt
